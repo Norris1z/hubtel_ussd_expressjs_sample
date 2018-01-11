@@ -1,0 +1,28 @@
+{
+  "name": "hubtel_ussd_expressjs",
+  "version": "1.0.0",
+  "description": "a demo application using hubtel's ussd service with expressjs",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "debug": "^3.1.0",
+    "express": "^4.16.2",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm test",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https"
+  },
+  "keywords": [
+    "ussd",
+    "hubtel",
+    "expressjs"
+  ],
+  "author": "Norris Oduro",
+  "license": "MIT"
+}
