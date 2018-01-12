@@ -3,10 +3,16 @@ const express = require('express');
 //used to parse the body of the request (application/json) sent from Hubtel
 const bodyParser = require('body-parser');
 
+// used to allow Cross Origin Resource Sharing (CORS)
+const cors = require('cors');
+
 const app = express();
 
 //used to check if the request body(json) is empty
 const _ = require('underscore');
+
+// setup the cors middleware to grant other domains access to our resources
+app.use(cors());
 
 //use the body-parser middleware to parse all incoming requests
 app.use(bodyParser.json());
